@@ -35,14 +35,13 @@ public class LoginController  extends HttpServlet
 					rd.forward(req, resp);
 					
 				}
-				else 
-				{
-					List<Student>list=si.getSingleData(un, pw);
-					req.setAttribute("LIST", list);
-					RequestDispatcher rd=req.getRequestDispatcher("success.jsp");
-							rd.forward(req, resp);
-					
-				}
+		/*
+		 * else { List<Student>list=si.getSingleData(un, pw); req.setAttribute("LIST",
+		 * list); RequestDispatcher rd=req.getRequestDispatcher("success.jsp");
+		 * rd.forward(req, resp);
+		 * 
+		 * }
+		 */
 				
 				//resp.sendRedirect("success.jsp");
 			}
