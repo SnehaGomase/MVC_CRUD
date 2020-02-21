@@ -31,6 +31,13 @@ public class ServiceInterfaceImplemen implements ServiceInterface
 	 * 
 	 * return list; }
 	 */
+	@Override
+	public List<Student> getAllpillu()
+	{
+		List<Student>list=di.getAllData();		
+		return list;
+		
+	}
 
 	@Override
 	public void deletdata(int id) {
