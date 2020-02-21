@@ -25,19 +25,14 @@ public class ServiceInterfaceImplemen implements ServiceInterface
 		
 	}
 
-	/*
-	 * @Override public List<Student> getSingleData(String un, String pw) {
-	 * List<Student> list=di.getSingleData(un, pw);
-	 * 
-	 * return list; }
-	 */
-	@Override
-	public List<Student> getAllpillu()
-	{
-		List<Student>list=di.getAllData();		
-		return list;
-		
-	}
+	
+	  @Override public List<Student> getSingleData(String un, String pw) {
+	  List<Student> list=di.getSingleData(un, pw);
+	  
+	 return list; }
+	 
+
+	
 
 	@Override
 	public void deletdata(int id) {
