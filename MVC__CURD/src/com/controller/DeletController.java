@@ -34,11 +34,10 @@ protected void service(HttpServletRequest req, HttpServletResponse resp) throws 
 		 RequestDispatcher rd=req.getRequestDispatcher("success.jsp");
 		  rd.forward(req, resp);
      }
-	 else 
-	 {
-	  RequestDispatcher rd=req.getRequestDispatcher("login.jsp");
-	  rd.forward(req, resp);
-	 }
+		/*
+		 * else { RequestDispatcher rd=req.getRequestDispatcher("login.jsp");
+		 * rd.forward(req, resp); }
+		 */
 	 
 	 
 }
