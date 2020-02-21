@@ -10,7 +10,7 @@ public interface ServiceInterface
 	
 	public List<Student> getAllData();
 	
-	//public List<Student> getSingleData( String un, String pw);
+	public List<Student> getSingleData( String un, String pw);
 	
 	public void deletdata(int id);
 	
